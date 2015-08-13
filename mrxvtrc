@@ -1,0 +1,81 @@
+
+#--	{ terminal = "mrxvt +sb -ht -fg white -bg black" }
+Mrxvt.scrollBar: False
+Mrxvt.showMenu: False
+Mrxvt.hideTabbar: True
+Mrxvt.bottomTabbar: False
+#Mrxvt.foreground: white
+#Mrxvt.background: black
+mrxvt.transparent: True
+mrxvt.transparentTabbar: True
+mrxvt.shading: 80
+
+# Setup colors for a black background.
+Mrxvt.background:               #000000
+Mrxvt.foreground:               #9a9a9a
+Mrxvt.color0:                   #000000
+Mrxvt.color1:                   #af0000
+Mrxvt.color2:                   #00af00
+Mrxvt.color3:                   #afaf00
+Mrxvt.color4:                   #0000af
+Mrxvt.color5:                   #af00af
+Mrxvt.color6:                   #00afaf
+Mrxvt.color7:                   #9a9a9a
+Mrxvt.color8:                   #5f5f5f
+Mrxvt.color9:                   #d70000
+Mrxvt.color10:                  #00d700
+Mrxvt.color11:                  #d7d700
+Mrxvt.color12:                  #0000d7
+Mrxvt.color13:                  #d700d7
+Mrxvt.color14:                  #00d7d7
+Mrxvt.color15:                  #d7d7d7
+Mrxvt.colorBD:                  #00afaf
+Mrxvt.colorUL:                  #00af00
+Mrxvt.highlightColor:           #303060
+
+
+#
+# ---------------------------------- FONTS ----------------------------------- #
+#
+mrxvt*font:-*-*-*-*-*-*-*-140-*-*-*-*-iso8859-7
+Mrxvt.xft:          0
+Mrxvt.xftFont:          DejaVu Sans
+Mrxvt.xftSize:          10
+Mrxvt.xftAntialias:     1
+
+# The options below are better set using ~/.fonts.config. Mrxvt will use the
+# defaults passed to the fontconfig library.
+#
+# Mrxvt.xftHinting:     1
+# Mrxvt.xftAutoHint:        1
+# Mrxvt.xftGlobalAdvance:   1
+# Mrxvt.xftRGBA:        rgb
+# Mrxvt.xftslow:        1
+
+# Don't load a multi-char font. This will reduce the line space if your multi
+# char font has different dimensions than the regular font. You might need to
+# comment it out if you want to use XIM and non-english fonts.
+Mrxvt.xftNomFont:       1
+
+# Font to use for tab bar / menus. This need not be mono-spaced ;).
+Mrxvt.xftPFont:         Arial         
+Mrxvt.xftPSize:         10
+
+# Shadow text
+# Mrxvt.textShadow:     red
+# Mrxvt.textShadowMode:     botright
+
+#
+# XIM input / multi char support. To use this, you should also comment out the
+# xftNomFont line above.
+#
+Mrxvt.profile0.command: \!LANG=en_US exec $SHELL
+# Mrxvt.xftmFont:       SimSun
+# Mrxvt.multichar_encoding: GB
+#Mrxvt.multichar_encoding: terminus-iso8859-2-14
+#Mrxvt.multichar_encoding: ISO8859-15
+#Mrxvt.multichar_encoding: NOENC
+#Mrxvt.multichar_encoding: eucj
+#Mrxvt.multichar_encoding: ascii
+# Mrxvt.inputMethod:        SCIM
+
